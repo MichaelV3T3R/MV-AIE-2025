@@ -26,4 +26,4 @@ def process_data():
         plt.savefig(f"./artifacts/EDA/figures/boxPlot/bp_{i}.png")
 
     df.to_csv("./data/PROCESSED/LoanDefaultPredictionDatasetPROC.csv", index=False)
-    print("ГОТОВО!")
+    print("ВСЕ, ВСЕ, ВСЕ!)")
